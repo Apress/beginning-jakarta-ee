@@ -1,0 +1,6 @@
+    #{bundle.label_enterYourName}
+    <h:inputText ... />
+
+    ...or...
+    <h:outputText value="#{label_enterYourName}" />
+    <h:inputText ... />

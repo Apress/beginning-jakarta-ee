@@ -1,0 +1,8 @@
+  ...
+  <h:commandButton value="#{bundle.submit}" 
+	  action="#{ajaxBean.submit}">
+      <f:ajax event="action" 
+              execute="firstName lastName" 
+              render="combinedName"/>
+  </h:commandButton>
+  ...

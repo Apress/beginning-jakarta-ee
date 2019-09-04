@@ -1,0 +1,6 @@
+<h:commandButton value="#{bundle.register}"
+      action="#{user.register}">
+    <f:actionListener
+          type="com.example.listeners.RegisterListener" 
+    />
+ </h:commandButton>

@@ -1,0 +1,41 @@
+<!--  Just a link                                       -->
+<h:outputLink value="http://www.amnesty.org" 
+       target="_blank">
+    This is an arbitrary link
+    <!-- There could also be an image here -->
+</h:outputLink>
+
+<!-- Just some JavaScript                               -->
+<h:button value="Go" onclick="window.alert('Hi')" />
+
+<h:form>
+  <!-- A link with a navigation case. The value         -->
+  <!-- expression maybe returns something like 'xyz'    -->
+  <!-- and there is a page 'xyz.xhtml'                  -->
+  <h:link value="Link text" outcome="#{accounting.nav1}" />
+
+  <!-- Similar - points to page 'main2.xhtml'           -->
+  <h:link value="Link text" outcome="main2" />
+
+  [... input elements...]	
+
+  <!-- A submit button. Click submits the form and      -->
+  <!-- calls action method Accounting.register(). This  -->
+  <!-- method must return a navigation case, for        -->
+  <!-- example 'xyz' and there exists a page 'xyz.html' -->
+  <!-- Or 'null' which points to the current page       -->        	 	
+  <h:commandButton value="#{bundle.submit}"
+    action="#{accounting.register}" />
+
+  <!-- The same, but a link instead of a button         -->
+  <h:commandLink value="#{bundle.submit}"
+    action="#{accounting.register}" />
+
+  <!-- Shortcuts the action method - instead forwards   -->
+  <!-- to page 'main2.xhtml'                            -->
+  <h:commandButton value="Button"
+    action="main2" />
+			
+</h:form>
+</h:body>
+</html>

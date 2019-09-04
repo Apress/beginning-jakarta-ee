@@ -1,0 +1,11 @@
+  <h:outputText 
+      styleClass="formLabel" <!-- literal rvalue -->
+      value="#{xyz.abc}"/>   <!-- rvalue getter -->
+
+  <h:commandButton 
+      value="#{'Go ' + xyz.submit}"  <!-- rvalue --> 
+      action="#{xyz.go}"/>   <!-- go() method -->
+
+  <h:inputText 
+      value="#{xyz.name}" />  
+  <!-- rvalue + lvalue, getter + setter --> 

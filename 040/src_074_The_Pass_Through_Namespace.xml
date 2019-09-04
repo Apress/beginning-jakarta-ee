@@ -1,0 +1,5 @@
+<input id="form1:item" 
+    type="text" 
+    name="form1:item" 
+    value="" 
+    data-category="food" />

@@ -1,0 +1,13 @@
+...
+<h:form id="form">
+  ...
+  <div class="clearfloat"/>
+  <h:selectBooleanCheckbox id="noExpenses" 
+        value="#{accounting.noExpenses}"/>
+  <h:outputLabel for="noExpenses" 
+        value="#{bundle.label_noExpenses}" />
+  <div class="clearfloat" />		
+  <h:commandButton value="#{bundle.submit}" 
+                   action="#{accounting.register}"/>
+</h:form>
+...

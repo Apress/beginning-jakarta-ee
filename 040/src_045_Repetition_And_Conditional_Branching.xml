@@ -1,0 +1,1 @@
+<h:outputText rendered="#{inj.renderName}" value="Name: #{inj.name}" />

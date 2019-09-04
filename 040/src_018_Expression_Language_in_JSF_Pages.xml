@@ -1,0 +1,6 @@
+x -> [some expression with x]
+x -> x*x - 7                       (an example)
+() -> [some expression]
+() -> 'Hello World'                (an example)
+(x,y) -> [some expr. with x and y]
+(x,y) -> x + y                     (an example)

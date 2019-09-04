@@ -1,0 +1,60 @@
+  ...
+  <h:form id="form">
+
+    <!-- A boolean checkbox. 'chk' must point to a  -->
+    <!-- getter and setter in class 'SomeClass':    -->
+    <!--   public boolean isChk() { return ...; }  -->
+    <!--   public void setChk(boolean chk) { ... } -->
+    <h:selectBooleanCheckbox value="#{someClass.chk}"/>
+    <p/>
+
+    <!-- A bunch of related checkboxes. 'checks1'   -->
+    <!-- refers to a String[] or Collection<String> -->
+    <!-- value                                      -->
+    <h:selectManyCheckbox value="#{someClass.checks1}">
+      <f:selectItem itemValue="v1" itemLabel="Item 1" />
+      <f:selectItem itemValue="v2" itemLabel="Item 2" />
+      <f:selectItem itemValue="v3" itemLabel="Item 3" />
+    </h:selectManyCheckbox>
+    <p/>
+
+    <!-- The same, but more dynamic. This time we   -->
+    <!-- provide a Map<String, String> for all      -->
+    <!-- possible items.                            -->  
+    <h:selectManyCheckbox value="#{someClass.checks1}">
+      <f:selectItems value="#{someClass.smcbItems}" />
+    </h:selectManyCheckbox>		
+    <p/>
+
+    <!-- A list with multiply selectable items      -->
+    <h:selectManyListbox  value="#{someClass.checks1}">
+      <f:selectItems value="#{someClass.smcbItems}" />
+    </h:selectManyListbox>
+    <p/>
+
+    <!-- A list where only one item can be selected -->
+    <h:selectOneListbox value="#{someClass.checks1}">
+      <f:selectItems value="#{someClass.smcbItems}" />
+    </h:selectOneListbox>
+    <p/>
+
+    <!-- Similar to selectManyListbox, but          -->
+    <!-- menu-style                                 -->
+    <h:selectManyMenu value="#{someClass.checks1}">
+      <f:selectItems value="#{someClass.smcbItems}" />
+    </h:selectManyMenu>
+    <p/>
+
+    <!-- Similar, but at most one item can be       -->
+    <!-- selected                                   -->
+    <h:selectOneMenu value="#{someClass.checks1}">
+      <f:selectItems value="#{someClass.smcbItems}" />
+    </h:selectOneMenu>
+    <p/>
+
+    <!-- A radio button list                        -->
+    <h:selectOneRadio value="#{someClass.checks1}">
+      <f:selectItems value="#{someClass.smcbItems}" />
+    </h:selectOneRadio>
+  </h:form>
+  ...

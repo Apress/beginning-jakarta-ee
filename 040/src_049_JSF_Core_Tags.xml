@@ -1,0 +1,4 @@
+<h:link value="Link label" outcome="page2"> 
+  <f:param name="urlParam1" value="someValue" />
+  <!-- There could be more... -->
+</h:link>

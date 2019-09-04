@@ -1,0 +1,6 @@
+    <h:outputText styleClass="formLabel" 
+        value="#{bundle.label_enterYourName}"/>
+
+    ...or...
+
+    #{bundle.label_enterYourName}

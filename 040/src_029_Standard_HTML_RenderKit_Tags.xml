@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+<h:head>
+  <title>Page Title</title>
+</h:head>
+<h:body>
+  <h:form id="form">
+    <h:inputText id="name" value="#{accounting.name}"/>
+    <!--  <- connects to getName() and setName()
+          in an injected Java bean class 
+          'Accounting'                            -->
+  </h:form>
+</h:body>
+</html>

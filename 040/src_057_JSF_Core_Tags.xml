@@ -1,0 +1,4 @@
+<h:inputText value="#{theClass.date}">
+  <f:convertDateTime pattern="yyyy-MM-dd HH:mm:ss" 
+      type="both"/>
+<h:inputText>

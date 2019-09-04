@@ -1,0 +1,3 @@
+<h:panelGrid rendered="#{accounting.renderName}">
+    #{bundle.label_enterYourName}
+</h:panelGrid>

@@ -1,0 +1,5 @@
+<h:panelGroup rendered="#{accounting.renderName}">
+  <h:outputText styleClass="formLabel" 
+      value="#{bundle.label_enterYourName}"/>
+  ...
+</h:panelGrid>

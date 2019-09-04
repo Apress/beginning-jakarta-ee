@@ -1,0 +1,1 @@
+<h:inputFile value="#{injectedClass.upload}" ... />

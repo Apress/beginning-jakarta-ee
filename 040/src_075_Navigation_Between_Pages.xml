@@ -1,0 +1,3 @@
+<h:commandButton ... action="#{injected.someAction}" />
+  <!-- or -->
+<h:commandLink ... action="#{injected.someAction}" />

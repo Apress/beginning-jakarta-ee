@@ -1,0 +1,3 @@
+<h:inputText vale="...">
+   <f:validateRegex pattern="[1-9]\d{3}" />
+</h:inputText>

@@ -1,0 +1,2 @@
+#{['Mark','Linda'][1]}                   -> 'Linda'
+#{{7:'Banana',2:'Apple',3:'Orange'}[7]}  -> 'Banana'

@@ -1,0 +1,9 @@
+<navigation-rule> 
+  <from-view-id>main.xhtml</from-view-id> 
+  <navigation-case> 
+    <from-action>#{injected.someAction}
+        </from-action>
+    <from-outcome>xyz</from-outcome> 
+    <to-view-id>/someOtherPage.xhtml</to-view-id>
+  </navigation-case> 
+</navigation-rule>

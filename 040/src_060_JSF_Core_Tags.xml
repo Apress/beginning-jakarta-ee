@@ -1,0 +1,3 @@
+<h:selectManyCheckbox value="#{theClass.sel}">
+    <f:selectItems value="#{theClass.items}" />
+</h:selectManyCheckbox>

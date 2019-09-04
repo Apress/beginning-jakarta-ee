@@ -1,0 +1,1 @@
+<h:inputText id="item" value="#{whatever.whatever}" pt:data-category="food" />

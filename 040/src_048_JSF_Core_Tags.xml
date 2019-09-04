@@ -1,0 +1,3 @@
+<h:inputText ... > 
+  <f:attribute name="id" value="lastName" />
+</h:inputText>

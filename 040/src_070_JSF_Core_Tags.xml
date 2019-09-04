@@ -1,0 +1,20 @@
+<h:form id="form1">
+  <h:panelGroup id="ajaxGroup">
+    <h:inputText id="firstName" 
+          value="#{ajaxBean.firstName}">
+      <f:ajax execute="ajaxGroup" render="combinedName"/>    
+    </h:inputText>
+    <h:inputText id="lastName" 
+          value="#{ajaxBean.lastName}">
+      <f:ajax execute="ajaxGroup" render="combinedName"/>    
+    </h:inputText>
+  </h:panelGroup>
+  <h:inputText id="birthday" value="#{ajaxBean.birthday}">
+     <f:convertDateTime pattern="yyyy-MM-dd" type="date"/>
+  </h:inputText>
+  <h:outputText id="combinedName" 
+        value="#{ajaxBean.combinedName}">
+  </h:outputText>
+  <h:commandButton value="#{bundle.submit}" 
+	  action="#{ajaxBean.submit}" />
+</h:form>

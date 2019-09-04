@@ -1,0 +1,4 @@
+<h:inputText vale="...">
+   <f:validateRequired />
+   <f:validateLongRange minimum="#{1000}" maximum="#{9999}" />
+</h:inputText>

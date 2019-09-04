@@ -1,0 +1,3 @@
+<ui:repeat value="#{inj.someCollection}" var="x">
+    [...do something with x...]
+</ui:repeat>

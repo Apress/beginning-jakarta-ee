@@ -1,0 +1,16 @@
+  <h:panelGroup id="ajaxGroup">
+    <h:inputText id="firstName" 
+      value="#{ajaxBean.firstName}">
+    </h:inputText>
+    <h:inputText id="lastName" 
+      value="#{ajaxBean.lastName}">
+    </h:inputText>
+  </h:panelGroup>
+  ...
+  <h:commandButton value="#{bundle.submit}" 
+	  action="#{ajaxBean.submit}">
+      <f:ajax event="action" 
+              execute="ajaxGroup" 
+              render="combinedName"/>
+  </h:commandButton>
+</h:form>

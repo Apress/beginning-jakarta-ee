@@ -1,0 +1,3 @@
+<h:inputText> <!-- or other input component --> 
+  <f:validateLongRange ... /> <!-- or other -->
+</h:inputText>

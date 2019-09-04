@@ -1,0 +1,9 @@
+...
+<h:head>
+<title>Household Accounting</title>
+  <h:outputStylesheet library = "css" name = "style.css" />
+  [... more like that ...] 
+  <h:outputScript library = "js" name = "myScript.js"  /> 
+  [... more like that ...]
+</h:head>
+...

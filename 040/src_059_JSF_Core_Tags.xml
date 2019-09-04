@@ -1,0 +1,10 @@
+  <h:selectManyCheckbox value="#{theClass.checks1}">
+      <f:selectItem itemValue="v1" itemLabel="Item 1" />
+      <f:selectItem itemValue="v2" itemLabel="Item 2" />
+      <f:selectItem itemValue="v3" itemLabel="Item 3" />
+      ...
+  </h:selectManyCheckbox>
+
+  <h:selectManyCheckbox value="#{theClass.checks2}">
+      <f:selectItems value = "#{theClass.smcbItems}" />
+  </h:selectManyCheckbox>

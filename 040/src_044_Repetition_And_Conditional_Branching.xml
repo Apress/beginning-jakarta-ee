@@ -1,0 +1,8 @@
+<forEach value="#{inj.someCollection}" var="i">
+    <h:outputText value="Hi #{i}" />
+    <if value="#{i < 10}">
+        <h:outputText value="Less than 10" />
+    <else/>
+        <h:outputText value="10 or more" />
+    </if>
+</forEach}

@@ -1,0 +1,13 @@
+...
+public class Accounting {
+    ...
+    private boolean noExpenses;
+    ...
+    public boolean isNoExpenses() {
+      return noExpenses;
+    }
+    public void setNoExpenses(boolean noExpenses) {
+      this.noExpenses = noExpenses;
+    }
+    ...
+}

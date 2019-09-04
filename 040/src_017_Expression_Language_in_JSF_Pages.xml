@@ -1,0 +1,5 @@
+ <ui:repeat value="#{['Linda', 'Ted', 'John', 'Marcus']
+      .stream().filter(itm->itm.length()>4).toList()}" 
+      var="v">
+  <h:outputText escape="false" value="#{v} &lt;p/&gt;"/>
+</ui:repeat>

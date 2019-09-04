@@ -1,0 +1,9 @@
+  <h:inputSecret id="password" autocomplete="off" 
+      value="#{auth.passwd}" 
+      required="true" 
+      requiredMessage="Password is Required" />
+
+  <p:commandLink action="#{auth.forgotPassword}" 
+      immediate="true">
+    <h:outputText value="#{bundle.link_forgotpasswd']}" />
+  </p:commandLink>

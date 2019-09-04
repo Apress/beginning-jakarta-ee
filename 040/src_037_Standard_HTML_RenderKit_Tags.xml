@@ -1,0 +1,4 @@
+<h:link value="Link text" outcome="main2">
+  <f:param name="param1" value="42" />
+  <f:param name="param2" value="Hello" />
+</h:link>
