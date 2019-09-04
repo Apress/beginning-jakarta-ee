@@ -1,0 +1,27 @@
+Request:
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S=
+      "http://schemas.xmlsoap.org/soap/envelope/" 
+            xmlns:SOAP-ENV=
+      "http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body xmlns:ns2="http://wsdate.jakarta8.book/">
+        <ns2:date>
+            <arg0>yyyy</arg0>
+        </ns2:date>
+    </S:Body>
+</S:Envelope>
+
+Response:
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S=
+      "http://schemas.xmlsoap.org/soap/envelope/" 
+            xmlns:SOAP-ENV=
+      "http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body xmlns:ns2="http://wsdate.jakarta8.book/">
+        <ns2:dateResponse>
+            <return>2019</return>
+        </ns2:dateResponse>
+    </S:Body>
+</S:Envelope>

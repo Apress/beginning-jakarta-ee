@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recordings>
+  <recording genre="classic">
+    <composer>Haydn</composer>
+    <composerFirst>Joseph</composerFirst>
+    <title>The Creation</title>
+    <make>1797</make>
+  </recording>
+  <recording genre="classic">
+    <composer>Haydn</composer>
+    <composerFirst>Joseph</composerFirst>
+    <title>The Seasons</title>
+    <make>1801</make>
+  </recording>
+  <recording genre="rock">
+    <composer>U2</composer>
+    <lyrics>Bono</lyrics>
+    <performer>U2</performer>
+    <title>A Sort of Homecoming</title>
+    <make>1984</make>
+  </recording>
+</recordings>

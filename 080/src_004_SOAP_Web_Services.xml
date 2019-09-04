@@ -1,0 +1,33 @@
+<plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>jaxws-maven-plugin</artifactId>
+  <version>1.12</version>
+  <executions>
+    <execution>
+      <id>wsimport-from-jdk</id>
+      <goals>
+        <goal>wsimport</goal>
+      </goals>
+    </execution>
+  </executions>
+  <configuration>
+    <!-- using wsdl from an url -->
+    <wsdlUrls>
+      <wsdlUrl>
+        http://localhost:8080/wsdate/WsDateService?wsdl
+      </wsdlUrl>
+    </wsdlUrls>
+    <!-- or reading wsdls from file directory -->
+    <!-- <wsdlDirectory>src/wsdl</wsdlDirectory> -->
+    <!-- wsdl files -->
+    <!-- <wsdlFiles> -->
+    <!-- <wsdlFile>theWSDL.wsdl</wsdlFile> -->
+    <!--</wsdlFiles> -->
+    <!-- Keep generated files -->
+    <keep>true</keep>
+    <!-- Package name -->
+    <packageName>book.jakarta8.wsdate.generated</packageName>
+    <!-- generated source files destination -->
+    <sourceDestDir>src/main/java</sourceDestDir>
+  </configuration>
+</plugin>
