@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config ...>    
+    <application>
+        <resource-bundle>
+            <base-name>julian.web.WebMessages</base-name>
+            <var>bundle</var>
+        </resource-bundle>
+        <locale-config>
+           <default-locale>en</default-locale>
+           <!-- <supported-locale>es</supported-locale> -->
+        </locale-config>
+    </application>
+</faces-config>
