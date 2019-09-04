@@ -1,0 +1,1 @@
+./asadmin set <key>=<level>

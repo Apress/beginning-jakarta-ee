@@ -1,0 +1,3 @@
+@Singleton
+public class MyDateTimeEarLog4j {
+}
