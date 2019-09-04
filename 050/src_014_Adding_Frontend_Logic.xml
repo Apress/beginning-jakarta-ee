@@ -1,0 +1,10 @@
+...
+<head>
+  <meta charset="UTF-8">
+  <title>RESTful Dates</title>
+  <link rel="stylesheet" type="text/css" 
+        href="css/styles.css" />
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+...
