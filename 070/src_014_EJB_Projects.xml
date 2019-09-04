@@ -1,0 +1,4 @@
+<groupId>book.jakarta8</groupId>
+<artifactId>testEjbServer</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+<packaging>ejb</packaging>

@@ -1,0 +1,14 @@
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-ejb-plugin</artifactId>
+  <version>3.0.1</version>
+  <configuration>
+    <generateClient>true</generateClient>
+    <ejbVersion>3.2</ejbVersion>
+    <clientExcludes>
+      <clientExclude>
+        book/jakarta8/ejbproj/ejb/*
+      </clientExclude>
+    </clientExcludes>
+  </configuration>
+</plugin>
