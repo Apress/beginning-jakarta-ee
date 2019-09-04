@@ -1,0 +1,6 @@
+<dependency>
+    <groupId>book.jakarta8</groupId>
+    <artifactId>julian-secure-ejb</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <classifier>client</classifier>
+</dependency>

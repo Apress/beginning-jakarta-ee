@@ -1,0 +1,2 @@
+<h:outputText value="#{julian.greetingTxt}"/>
+<p/>

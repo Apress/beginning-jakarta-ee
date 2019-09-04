@@ -1,0 +1,2 @@
+bin/asadmin
+asadmin> login

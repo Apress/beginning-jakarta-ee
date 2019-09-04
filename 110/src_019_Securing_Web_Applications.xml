@@ -1,0 +1,20 @@
+    ...
+    </servlet-mapping>
+
+    <security-constraint>
+      <display-name>Admin Constraint</display-name>
+      <web-resource-collection>
+        <web-resource-name>members</web-resource-name>
+        <description />
+        <url-pattern>/admin/*</url-pattern>
+      </web-resource-collection>
+      <auth-constraint>
+        <description />
+        <role-name>admin</role-name>
+      </auth-constraint>
+      <user-data-constraint>
+        <transport-guarantee>
+          CONFIDENTIAL
+        </transport-guarantee>
+      </user-data-constraint>
+    </security-constraint>

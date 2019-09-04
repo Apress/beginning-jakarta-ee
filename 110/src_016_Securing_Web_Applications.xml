@@ -1,0 +1,4 @@
+<h:outputLink value="admin/admin.xhtml">
+  <f:param name="backref" value="#{view.viewId}"/>
+  <h:outputText value="#{bundle.adminlink} "/>
+</h:outputLink>
